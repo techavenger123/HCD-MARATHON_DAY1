@@ -15,7 +15,7 @@ Role : Creating the git repository and looked for the schemetics IDEs.
 Update 2: 
 Timing 9:00AM TO 10:00AM
  Discussed the components according to the requirements. Downloaded the datasheets and reviewed it parrallely making the documentation noting the key parameters from the sheet.
-
+ 
  Member : Mihir 
  Reviewed Arduino Uno R4 Wifi datasheet. Link : https://docs.arduino.cc/resources/datasheets/ABX00087-datasheet.pdf
 
