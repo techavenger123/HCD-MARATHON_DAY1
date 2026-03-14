@@ -50,3 +50,13 @@ Update 5:
 Timing 12:00PM to 1:00PM
 Mihir and Gouri
 We have completed the simulation of our system design, integrating all required components and verifying the circuit connections. Further testing and refinements are currently in progress.
+
+Update 6:
+Timing 1:00PM to 2:00PM
+Mihir and Gouri
+We updated the simulator setup and made some changes to the circuit connections and code to improve the system’s functionality.
+
+Update 7:
+Timing 2:00PM to 4:00PM
+Mihir and Gouri
+We have Designed pcb of arduino shied according to our needs.
