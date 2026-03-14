@@ -40,3 +40,8 @@ Reviewed AS608 Finger print Sensor. Link : https://handsontec.com/dataspecs/sens
 Member : Mihir And Gouri
  Documentation of the review on shared Google Doc. Link : https://docs.google.com/document/d/1aDvrpwIOXgHMgOs-GuqKawZm_Hea75zWhsju9SYhX9U/edit?tab=t.kmdql8rlme5y
  Discussed and shared the key points from each other's review.
+
+Update 4: 
+Timing 11:00AM to 12:00PM
+Mihir and Gouri
+Designing of Circuit on paper and Schematic Diagram on EasyEDA Platform on a shared Workspace connecting all the components and Downloaded BOM(Bill of Materials).
