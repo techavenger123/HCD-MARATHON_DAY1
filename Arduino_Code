@@ -1,0 +1,54 @@
+#include <WiFiS3.h>
+#include <ArduinoHttpClient.h>
+
+#define WIFI_SSID "WIFI"
+#define WIFI_PASSWORD "12345678"
+
+char ssid[] = WIFI_SSID;
+char pass[] = WIFI_PASSWORD;
+
+char server[] = "mq6-monitor-default-rtdb.asia-southeast1.firebasedatabase.app";
+
+WiFiSSLClient wifi;
+HttpClient client = HttpClient(wifi, server, 443);
+
+int mq6Pin = A0;
+
+void setup() {
+
+  Serial.begin(115200);
+
+  while (WiFi.begin(ssid, pass) != WL_CONNECTED) {
+    Serial.println("Connecting to WiFi...");
+    delay(2000);
+  }
+
+  Serial.println("WiFi Connected");
+}
+
+void loop() {
+
+  if (WiFi.status() != WL_CONNECTED) {
+    Serial.println("WiFi lost. Reconnecting...");
+    WiFi.begin(ssid, pass);
+    delay(2000);
+    return;
+  }
+
+  int gasValue = analogRead(mq6Pin);
+
+  String path = "/devices/device3.json";
+  String data = "{\"mq6\":" + String(gasValue) + "}";
+
+  client.put(path, "application/json", data);
+
+  int statusCode = client.responseStatusCode();
+
+  Serial.print("Status: ");
+  Serial.println(statusCode);
+  Serial.print("Value: ");
+  Serial.println(gasValue);
+  client.stop();
+
+  delay(1000);
+}
