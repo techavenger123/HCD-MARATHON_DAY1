@@ -45,3 +45,8 @@ Update 4:
 Timing 11:00AM to 12:00PM
 Mihir and Gouri
 Designing of Circuit on paper and Schematic Diagram on EasyEDA Platform on a shared Workspace connecting all the components and Downloaded BOM(Bill of Materials).
+
+Update 5:
+Timing 12:00PM to 1:00PM
+Mihir and Gouri
+We have completed the simulation of our system design, integrating all required components and verifying the circuit connections. Further testing and refinements are currently in progress.
