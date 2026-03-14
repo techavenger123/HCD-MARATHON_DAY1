@@ -25,3 +25,18 @@ Timing 9:00AM TO 10:00AM
  Member : Mihir And Gouri
  Documentation of the review on shared Google Doc. Link : https://docs.google.com/document/d/1aDvrpwIOXgHMgOs-GuqKawZm_Hea75zWhsju9SYhX9U/edit?tab=t.kmdql8rlme5y
  Discussed and shared the key points from each other's review.
+
+Update 3: 
+Timing 10:AM TO 11:00AM
+Reviewed the rest of the datasheet of the remaining component
+
+Member : Mihir 
+Reviewed 2/2 & 3/2 WAY DIRECT ACTING
+SOLENOID VALVE (NC / NO). Link : https://www.uflowvalve.com/Assets/Product/Catalogue/solenoid-valve/series/uflow_dac_series_catalogue.pdf
+
+Member : Gouri 
+Reviewed AS608 Finger print Sensor. Link : https://handsontec.com/dataspecs/sensor/AS608%20Finger%20print%20Sensor.pdf
+
+Member : Mihir And Gouri
+ Documentation of the review on shared Google Doc. Link : https://docs.google.com/document/d/1aDvrpwIOXgHMgOs-GuqKawZm_Hea75zWhsju9SYhX9U/edit?tab=t.kmdql8rlme5y
+ Discussed and shared the key points from each other's review.
