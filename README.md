@@ -87,3 +87,68 @@ Mihir and Gouri
 - Users can log in and view live sensor readings from their assigned devices.
 
 - The dashboard also includes real-time graph visualization for monitoring gas level trends.
+
+
+
+
+**DAY 2**
+
+
+Update (7:15 - 9:20)
+Member Mihir : Updated the dashboard ui and added featues such as monitoring all the devices for admin.
+Made the changes in Firebase database for more security.
+
+Update (7:15 - 9:20)
+Member Mihir : Updated the dashboard ui and added featues such as monitoring all the devices for admin.
+Made the changes in Firebase database for more security.
+
+Member Gouri : Tested the changed UI for user level dashboard. Integrating the fingerprint sensor and reviewing its connection and datastorage videos from YT.
+
+
+Update (9:15 – 11:15)
+Team Members: Mihir, Gouri
+
+Successfully integrated the fingerprint sensor, MQ-6 gas sensor, buzzer, and LED. The system is designed such that when an unauthorized user attempts access, an immediate alert is triggered through the buzzer and LED indication, ensuring quick detection of intrusion attempts. Additionally, fingerprint authentication data along with user credentials was securely stored and managed using Firebase, enabling reliable user identification and centralized data handling.
+
+
+Update (11:15 – 1:15)
+Members: Mihir, Gouri
+
+Refined and optimized the Arduino code to improve system performance and reliability. Implemented unique pairing between device ID and fingerprint ID, ensuring accurate identification and preventing conflicts between multiple users or devices.
+Enhanced the buzzer alert logic to provide clearer and more consistent responses during unauthorized access attempts. Additionally, restructured Firebase attributes to improve data organization, strengthen security, and enable more efficient credential management.
+The UI was also updated to provide a cleaner and more intuitive interaction experience.
+
+Marathon Day-2
+Update (1:15 - 3:15)
+Members: Mihir and Gouri
+
+Initially, the schematic included only the MQ-6 gas sensor interfaced with the microcontroller. In this work session, the design was expanded by incorporating the fingerprint sensor, LED, and buzzer to improve system functionality. Circuit errors were identified and corrected, and pin mappings were refined to ensure proper communication between all components. The updated schematic now reflects a more complete and reliable system architecture.
+
+<img width="1071" height="701" alt="image" src="https://github.com/user-attachments/assets/fa6f4a76-1722-4229-a946-d332ee8f80b0" />
+
+
+Marathon Day - 2
+Update (3:15 - 5:15)
+Members: Gouri and Mihir
+
+Designed and finalized the PCB layout by integrating the microcontroller with MQ-6 gas sensor interface, fingerprint module header, relay control header, buzzer, and LED indicators. Resolved multiple schematic-to-PCB conversion issues such as footprint mismatches, floating pins, and incorrect net mappings, ensuring proper connectivity and power distribution across all components. Optimized component placement and routing to achieve a clean, compact, and manufacturable layout. Verified the design using both 2D and 3D PCB views, confirming correct alignment and practical feasibility for hardware implementation.
+
+**PCB DESIGN**
+<img width="1450" height="742" alt="image" src="https://github.com/user-attachments/assets/b793626a-2698-4e47-838a-da62ae54c481" />
+
+<img width="931" height="603" alt="image" src="https://github.com/user-attachments/assets/4f7789aa-f111-4569-9ae0-674eb34c1852" />
+
+Marathon Day - 2 (7:15 am - 7:15 pm done)
+Update (5:15 - 7:15)
+Members: Mihir and Gouri
+
+Updated the Arduino Uno code to support dynamic fingerprint registration, enabling each fingerprint ID to be securely mapped and stored in Firebase according to its respective device ID. Implemented corresponding modifications in the user dashboard to reflect real-time authentication status, valve control state, and gas sensor readings. Added new features for live monitoring, including continuous data updates, improved visualization of gas concentration trends, and synchronized device-level access control, enhancing overall system responsiveness and usability.
+
+
+**ADMIN DASHBOARD**
+
+<img width="1499" height="913" alt="image" src="https://github.com/user-attachments/assets/8ce1fc85-6b70-4d6d-b504-68d292ccedde" />
+
+<img width="1505" height="885" alt="image" src="https://github.com/user-attachments/assets/82ae507d-9c83-40da-ade5-90cd424dfbc5" />
+
+
